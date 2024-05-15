@@ -1,0 +1,7 @@
+Run this code after activating the desired env to export
+
+conda env export > environment.yml
+
+Check if the environment exported, then cd to the desired folder for env creation and run this:
+
+conda env create --prefix ./env -f ../environment.yml
